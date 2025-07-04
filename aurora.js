@@ -148,8 +148,10 @@
   const mesh = new Mesh(gl, { geometry, program });
 
   function resize() {
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    program.uniforms.uResolution.value = [window.innerWidth, window.innerHeight];
+    const width = container.offsetWidth;
+const height = container.offsetHeight;
+program.uniforms.uResolution.value = [width, height];
+renderer.setSize(width, height);
   }
 
   window.addEventListener('resize', resize);
