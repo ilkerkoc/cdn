@@ -62,18 +62,18 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="w-full max-w-7xl px-4">
       <div class="grid grid-cols-8 grid-rows-4 gap-5">
         ${[
-          { col: 1, row: 1, cs: 2, rs: 2, img: "banner_dik_2.jpg", text: "KABUKLU<br />FINDIK", pos: "overlay-top-center", cls: "text-black-bold text-large" },
-          { col: 3, row: 1, cs: 2, rs: 2, img: "banner_dik_1.jpg", text: "NATUREL<br />FINDIK", pos: "overlay-center", cls: "text-white-bold text-large" },
-          { col: 1, row: 3, cs: 2, rs: 2, img: "banner_dik_3.jpg", text: "KAVRULMUŞ<br />FINDIK", pos: "overlay-center", cls: "text-white-bold text-large" },
-          { col: 3, row: 3, cs: 2, rs: 2, img: "banner_dik_4.jpg", text: "PİKOLO</br> FINDIK", pos: "overlay-center", cls: "text-white-bold text-large" },
-          { col: 5, row: 1, cs: 2, rs: 1, img: "banner_kare_1.jpg", text: "Fındık<br />Kreması", pos: "overlay-top-right", cls: "text-green-bold text-extra-large", kare: true },
-          { col: 7, row: 1, cs: 2, rs: 1, img: "banner_kare_3.jpg", text: "Krokan", pos: "overlay-top-left", cls: "text-white-bold text-huge", kare: true },
-          { col: 5, row: 2, cs: 2, rs: 1, img: "banner_kare_5.jpg", text: "Fındık<br />Kreması", pos: "overlay-top-left", cls: "text-white-bold text-large", kare: true },
-          { col: 7, row: 2, cs: 2, rs: 2, img: "banner_kare_7.jpg", text: "Çay", pos: "overlay-top-left", cls: "text-white-bold text-extra-large", kare: true },
-          { col: 5, row: 3, cs: 2, rs: 1, img: "banner_kare_2.jpg", text: "Çikolata", pos: "overlay-top-left", cls: "text-white-bold text-huge", kare: true },
-          { col: 7, row: 3, cs: 2, rs: 2, img: "banner_kare_4.jpg", text: "Fındık</br>Ezmesi", pos: "overlay-top-left", cls: "text-white-bold text-huge", kare: true },
-          { col: 5, row: 4, cs: 2, rs: 1, img: "banner_kare_6.jpg", text: "Pestil<br />Köme", pos: "overlay-top-left", cls: "text-white-bold text-large", kare: true },
-          { col: 7, row: 4, cs: 2, rs: 1, img: "banner_kare_6.jpg", text: "Pestil<br />Köme", pos: "overlay-top-left", cls: "text-white-bold text-large", kare: true },
+          { col: 1, row: 1, cs: 2, rs: 2, img: "https://cdn.jsdelivr.net/gh/ilkerkoc/cdn/banner_dik_2.jpg", text: "KABUKLU<br />FINDIK", pos: "overlay-top-center", cls: "text-black-bold text-large" },
+          { col: 3, row: 1, cs: 2, rs: 2, img: "https://cdn.jsdelivr.net/gh/ilkerkoc/cdn/banner_dik_1.jpg", text: "NATUREL<br />FINDIK", pos: "overlay-center", cls: "text-white-bold text-large" },
+          { col: 1, row: 3, cs: 2, rs: 2, img: "https://cdn.jsdelivr.net/gh/ilkerkoc/cdn/banner_dik_3.jpg", text: "KAVRULMUŞ<br />FINDIK", pos: "overlay-center", cls: "text-white-bold text-large" },
+          { col: 3, row: 3, cs: 2, rs: 2, img: "https://cdn.jsdelivr.net/gh/ilkerkoc/cdn/banner_dik_4.jpg", text: "PİKOLO</br> FINDIK", pos: "overlay-center", cls: "text-white-bold text-large" },
+          { col: 5, row: 1, cs: 2, rs: 1, img: "https://cdn.jsdelivr.net/gh/ilkerkoc/cdn/banner_kare_1.jpg", text: "Fındık<br />Kreması", pos: "overlay-top-right", cls: "text-green-bold text-extra-large", kare: true },
+          { col: 7, row: 1, cs: 2, rs: 1, img: "https://cdn.jsdelivr.net/gh/ilkerkoc/cdn/banner_kare_3.jpg", text: "Krokan", pos: "overlay-top-left", cls: "text-white-bold text-huge", kare: true },
+          { col: 5, row: 2, cs: 2, rs: 1, img: "https://cdn.jsdelivr.net/gh/ilkerkoc/cdn/banner_kare_5.jpg", text: "Fındık<br />Kreması", pos: "overlay-top-left", cls: "text-white-bold text-large", kare: true },
+          { col: 7, row: 2, cs: 2, rs: 2, img: "https://cdn.jsdelivr.net/gh/ilkerkoc/cdn/banner_kare_7.jpg", text: "Çay", pos: "overlay-top-left", cls: "text-white-bold text-extra-large", kare: true },
+          { col: 5, row: 3, cs: 2, rs: 1, img: "https://cdn.jsdelivr.net/gh/ilkerkoc/cdn/banner_kare_2.jpg", text: "Çikolata", pos: "overlay-top-left", cls: "text-white-bold text-huge", kare: true },
+          { col: 7, row: 3, cs: 2, rs: 2, img: "https://cdn.jsdelivr.net/gh/ilkerkoc/cdn/banner_kare_4.jpg", text: "Fındık</br>Ezmesi", pos: "overlay-top-left", cls: "text-white-bold text-huge", kare: true },
+          { col: 5, row: 4, cs: 2, rs: 1, img: "https://cdn.jsdelivr.net/gh/ilkerkoc/cdn/banner_kare_6.jpg", text: "Pestil<br />Köme", pos: "overlay-top-left", cls: "text-white-bold text-large", kare: true },
+          { col: 7, row: 4, cs: 2, rs: 1, img: "https://cdn.jsdelivr.net/gh/ilkerkoc/cdn/banner_kare_6.jpg", text: "Pestil<br />Köme", pos: "overlay-top-left", cls: "text-white-bold text-large", kare: true },
         ].map(item => `
           <div class="col-span-${item.cs} row-span-${item.rs} col-start-${item.col} row-start-${item.row}">
             <div class="rounded-lg overflow-hidden bg-white image-container">
